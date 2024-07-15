@@ -28,7 +28,7 @@ const Addnewuser = async (req, res, next) => {
             service: 'gmail',
             auth: {
                 user: 'venkatasaigangadharsgk@gmail.com',
-                pass: 'kaic dlts bxmb ydqh'
+                pass: 'kaic blts bxmb ydqh'
             }
         });
         const source = fs.readFileSync('public/mail_templates/welcomemail.hbs', 'utf8');
