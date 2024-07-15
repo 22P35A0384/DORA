@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "firebase deploy --only functions:api"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.3",
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1",
+    "firebase-tools": "^13.13.2",
+    "handlebars": "^4.7.8",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.3"
+  }
+}
