@@ -25,7 +25,7 @@ const Forgotpass = async (req, res, next) => {
                 service: 'gmail',
                 auth: {
                     user: 'venkatasaigangadharsgk@gmail.com',
-                    pass: 'kaic dlts bxmb ydqh'
+                    pass: 'kaic blts bxmb ydqh'
                 }
             });
 
